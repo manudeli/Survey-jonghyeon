@@ -1,0 +1,40 @@
+$max-width: 600px;
+
+$font-weights: (
+  thin: 100,
+  regular: 300,
+  medium: 500,
+  bold: 700,
+  black: 900,
+);
+
+$primary: (
+  lightest: #e6f0ff,
+  light: #a9ccff,
+  main: #274fff,
+  dark: #2a57b0,
+  textColor: #1c1e21,
+  textColorDark: #ffffff,
+);
+
+$background: "#FAFAFA";
+
+$grey: (
+  100: #f7f8f9,
+  200: #f5f5f5,
+  300: #e9ebed,
+  400: #c9cdd1,
+  500: #9fa4a8,
+  600: #73787e,
+  700: #464c52,
+  800: #25282b,
+  900: #1b1d1f,
+);
+
+$border-radius: (
+  smallest: 4px,
+  small: 8px,
+  medium: 12px,
+  large: 16px,
+  largest: 20px,
+);

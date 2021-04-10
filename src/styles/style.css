@@ -1,0 +1,58 @@
+body {
+  background-color: #f7f8f9;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+body .card {
+  padding: 24px;
+  margin: 16px;
+  border-radius: 16px;
+  background-color: white;
+}
+
+body .icon-button, body .icon-button--positive, body .icon-button--negative {
+  background-color: white;
+}
+
+body .icon-button--positive .icon {
+  color: #2a57b0;
+}
+
+body .icon-button--negative .icon {
+  color: tomato;
+}
+
+body .icon--negative {
+  color: tomato;
+}
+
+body .description {
+  color: #1c1e21;
+}
+
+body .shadow {
+  -webkit-box-shadow: 0px 8px 16px -6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 16px -6px rgba(0, 0, 0, 0.1);
+}
+
+body .shadow-dark {
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+body .mt-8 {
+  margin-top: 8px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+/*# sourceMappingURL=style.css.map */

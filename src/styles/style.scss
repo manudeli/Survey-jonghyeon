@@ -1,0 +1,65 @@
+@import "./_variables";
+
+body {
+  background-color: map-get($grey, 100);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  .container {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  .card {
+    padding: 24px;
+    margin: 16px;
+    border-radius: map-get($border-radius, large);
+    background-color: white;
+  }
+
+  .icon-button {
+    background-color: white;
+  }
+
+  .icon-button--positive {
+    @extend .icon-button;
+    .icon {
+      color: map-get($map: $primary, $key: dark);
+    }
+  }
+
+  .icon-button--negative {
+    @extend .icon-button;
+    .icon {
+      color: tomato;
+    }
+  }
+
+  .icon--negative {
+    color: tomato;
+  }
+
+  .description {
+    color: map-get($map: $primary, $key: textColor);
+  }
+
+  .shadow {
+    box-shadow: 0px 8px 16px -6px rgba(0, 0, 0, 0.1);
+  }
+
+  .shadow-dark {
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .mt-8 {
+    margin-top: 8px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
