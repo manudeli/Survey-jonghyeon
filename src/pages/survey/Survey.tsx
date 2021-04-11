@@ -116,6 +116,7 @@ export default function Survey() {
                     </Typography>
 
                     <Button
+                      className="animation"
                       variant="contained"
                       color="primary"
                       disableElevation
@@ -130,7 +131,7 @@ export default function Survey() {
                     </Button>
                   </>
                 ) : (
-                  <Typography className="description mt-8" variant="subtitle2">
+                  <Typography className="description mt-8 " variant="subtitle2">
                     앗! 아직 질문이 없으시군요
                     <br /> 새로운 질문을 추가해보세요😀
                   </Typography>
